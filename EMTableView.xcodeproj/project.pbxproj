@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B2ECBC207CEE134E10B611E /* Pods_EMTableView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C28C4CB99C467F32578C0D68 /* Pods_EMTableView.framework */; };
+		A8D22244781F4EDA271D8AA9 /* Pods_EMTableViewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CB5FA5971533152502F80D4 /* Pods_EMTableViewTests.framework */; };
 		F2344C8220031789001D3673 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2344C8120031789001D3673 /* AppDelegate.swift */; };
-		F2344C8420031789001D3673 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2344C8320031789001D3673 /* ViewController.swift */; };
 		F2344C8720031789001D3673 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2344C8520031789001D3673 /* Main.storyboard */; };
 		F2344C8920031789001D3673 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2344C8820031789001D3673 /* Assets.xcassets */; };
 		F2344C8C20031789001D3673 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2344C8A20031789001D3673 /* LaunchScreen.storyboard */; };
 		F2344C9720031789001D3673 /* EMTableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2344C9620031789001D3673 /* EMTableViewTests.swift */; };
 		F2344CA220031789001D3673 /* EMTableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2344CA120031789001D3673 /* EMTableViewUITests.swift */; };
+		F2344CB02003182A001D3673 /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2344CAF2003182A001D3673 /* UsersViewController.swift */; };
+		F2344CB2200318E9001D3673 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2344CB1200318E9001D3673 /* Data.swift */; };
+		F2344CB420031B2A001D3673 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2344CB320031B2A001D3673 /* User.swift */; };
+		F27780D72003B243006ED547 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27780D62003B243006ED547 /* UserViewController.swift */; };
+		F3BEC6AABE87D9178A537E62 /* Pods_EMTableViewUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66AB85E96AF037A5D2ACB5E8 /* Pods_EMTableViewUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +40,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5CB5FA5971533152502F80D4 /* Pods_EMTableViewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EMTableViewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6165A335F82031038CA3689D /* Pods-EMTableViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EMTableViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EMTableViewTests/Pods-EMTableViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		66AB85E96AF037A5D2ACB5E8 /* Pods_EMTableViewUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EMTableViewUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CC98F77932C169D0CDAB3AD /* Pods-EMTableViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EMTableViewUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EMTableViewUITests/Pods-EMTableViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6EC9113B8E4CE4C9183EC0B0 /* Pods-EMTableViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EMTableViewUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EMTableViewUITests/Pods-EMTableViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8C929D48FC2AEE39F82954B1 /* Pods-EMTableViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EMTableViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EMTableViewTests/Pods-EMTableViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		C28C4CB99C467F32578C0D68 /* Pods_EMTableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EMTableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC3A1D2B9C249DA04C88526B /* Pods-EMTableView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EMTableView.release.xcconfig"; path = "Pods/Target Support Files/Pods-EMTableView/Pods-EMTableView.release.xcconfig"; sourceTree = "<group>"; };
 		F2344C7E20031789001D3673 /* EMTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EMTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2344C8120031789001D3673 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F2344C8320031789001D3673 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F2344C8620031789001D3673 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F2344C8820031789001D3673 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2344C8B20031789001D3673 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +60,11 @@
 		F2344C9D20031789001D3673 /* EMTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EMTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2344CA120031789001D3673 /* EMTableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EMTableViewUITests.swift; sourceTree = "<group>"; };
 		F2344CA320031789001D3673 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2344CAF2003182A001D3673 /* UsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
+		F2344CB1200318E9001D3673 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		F2344CB320031B2A001D3673 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F27780D62003B243006ED547 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		FE5A2D76CEBDBB25461B4901 /* Pods-EMTableView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EMTableView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EMTableView/Pods-EMTableView.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B2ECBC207CEE134E10B611E /* Pods_EMTableView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8D22244781F4EDA271D8AA9 /* Pods_EMTableViewTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +88,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3BEC6AABE87D9178A537E62 /* Pods_EMTableViewUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24D1A3EBF6A3EF0DB4011F87 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE5A2D76CEBDBB25461B4901 /* Pods-EMTableView.debug.xcconfig */,
+				CC3A1D2B9C249DA04C88526B /* Pods-EMTableView.release.xcconfig */,
+				6165A335F82031038CA3689D /* Pods-EMTableViewTests.debug.xcconfig */,
+				8C929D48FC2AEE39F82954B1 /* Pods-EMTableViewTests.release.xcconfig */,
+				6CC98F77932C169D0CDAB3AD /* Pods-EMTableViewUITests.debug.xcconfig */,
+				6EC9113B8E4CE4C9183EC0B0 /* Pods-EMTableViewUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B3857B403A402230CD679A48 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C28C4CB99C467F32578C0D68 /* Pods_EMTableView.framework */,
+				5CB5FA5971533152502F80D4 /* Pods_EMTableViewTests.framework */,
+				66AB85E96AF037A5D2ACB5E8 /* Pods_EMTableViewUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F2344C7520031789001D3673 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +125,8 @@
 				F2344C9520031789001D3673 /* EMTableViewTests */,
 				F2344CA020031789001D3673 /* EMTableViewUITests */,
 				F2344C7F20031789001D3673 /* Products */,
+				24D1A3EBF6A3EF0DB4011F87 /* Pods */,
+				B3857B403A402230CD679A48 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,7 +144,10 @@
 			isa = PBXGroup;
 			children = (
 				F2344C8120031789001D3673 /* AppDelegate.swift */,
-				F2344C8320031789001D3673 /* ViewController.swift */,
+				F2344CAF2003182A001D3673 /* UsersViewController.swift */,
+				F27780D62003B243006ED547 /* UserViewController.swift */,
+				F2344CB320031B2A001D3673 /* User.swift */,
+				F2344CB1200318E9001D3673 /* Data.swift */,
 				F2344C8520031789001D3673 /* Main.storyboard */,
 				F2344C8820031789001D3673 /* Assets.xcassets */,
 				F2344C8A20031789001D3673 /* LaunchScreen.storyboard */,
@@ -132,9 +181,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F2344CA620031789001D3673 /* Build configuration list for PBXNativeTarget "EMTableView" */;
 			buildPhases = (
+				54F814AF785AF59F0122E1E7 /* [CP] Check Pods Manifest.lock */,
 				F2344C7A20031789001D3673 /* Sources */,
 				F2344C7B20031789001D3673 /* Frameworks */,
 				F2344C7C20031789001D3673 /* Resources */,
+				FDD51FD0D7241184E2FFB3CC /* [CP] Embed Pods Frameworks */,
+				DEB71AFD8ECDBA7018CCB895 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +201,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F2344CA920031789001D3673 /* Build configuration list for PBXNativeTarget "EMTableViewTests" */;
 			buildPhases = (
+				04D850B8788739FF21DBC79E /* [CP] Check Pods Manifest.lock */,
 				F2344C8E20031789001D3673 /* Sources */,
 				F2344C8F20031789001D3673 /* Frameworks */,
 				F2344C9020031789001D3673 /* Resources */,
+				CB5F7CF3EFCEEAF23898772A /* [CP] Embed Pods Frameworks */,
+				D8030EAD9F92604601F3604F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +222,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F2344CAC20031789001D3673 /* Build configuration list for PBXNativeTarget "EMTableViewUITests" */;
 			buildPhases = (
+				E1A78B26E59272E3DC35A1C1 /* [CP] Check Pods Manifest.lock */,
 				F2344C9920031789001D3673 /* Sources */,
 				F2344C9A20031789001D3673 /* Frameworks */,
 				F2344C9B20031789001D3673 /* Resources */,
+				BFB6146E8E2539706C2AE24A /* [CP] Embed Pods Frameworks */,
+				6D6D0DBE3B8B8A19899817CD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,13 +312,168 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		04D850B8788739FF21DBC79E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EMTableViewTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54F814AF785AF59F0122E1E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EMTableView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D6D0DBE3B8B8A19899817CD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EMTableViewUITests/Pods-EMTableViewUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFB6146E8E2539706C2AE24A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EMTableViewUITests/Pods-EMTableViewUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB5F7CF3EFCEEAF23898772A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EMTableViewTests/Pods-EMTableViewTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8030EAD9F92604601F3604F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EMTableViewTests/Pods-EMTableViewTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEB71AFD8ECDBA7018CCB895 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EMTableView/Pods-EMTableView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1A78B26E59272E3DC35A1C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EMTableViewUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDD51FD0D7241184E2FFB3CC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EMTableView/Pods-EMTableView-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EMTableView/Pods-EMTableView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F2344C7A20031789001D3673 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2344C8420031789001D3673 /* ViewController.swift in Sources */,
+				F2344CB420031B2A001D3673 /* User.swift in Sources */,
+				F27780D72003B243006ED547 /* UserViewController.swift in Sources */,
 				F2344C8220031789001D3673 /* AppDelegate.swift in Sources */,
+				F2344CB2200318E9001D3673 /* Data.swift in Sources */,
+				F2344CB02003182A001D3673 /* UsersViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +637,7 @@
 		};
 		F2344CA720031789001D3673 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE5A2D76CEBDBB25461B4901 /* Pods-EMTableView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -439,6 +653,7 @@
 		};
 		F2344CA820031789001D3673 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC3A1D2B9C249DA04C88526B /* Pods-EMTableView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +669,7 @@
 		};
 		F2344CAA20031789001D3673 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6165A335F82031038CA3689D /* Pods-EMTableViewTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +687,7 @@
 		};
 		F2344CAB20031789001D3673 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C929D48FC2AEE39F82954B1 /* Pods-EMTableViewTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +705,7 @@
 		};
 		F2344CAD20031789001D3673 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CC98F77932C169D0CDAB3AD /* Pods-EMTableViewUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +722,7 @@
 		};
 		F2344CAE20031789001D3673 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EC9113B8E4CE4C9183EC0B0 /* Pods-EMTableViewUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
